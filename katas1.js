@@ -17,14 +17,14 @@ function evensToTwenty () {
 }
 console.log(evensToTwenty());
 
-function evensToTwenty () {
+function oddsToTwenty () {
   let meuRetorno3 = [];
   for (let i = 1; i <= 20; i+=2) {
       meuRetorno3.push(i)
   }
   return meuRetorno3;
 }
-console.log(evensToTwenty());
+console.log(oddsToTwenty());
 
 function multiplesOfFive () {
   let meuRetorno4 = [];
